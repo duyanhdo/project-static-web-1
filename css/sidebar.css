@@ -1,0 +1,34 @@
+.sidebar {
+	margin-bottom: 36px;
+}
+
+.sidebar:last-child {
+	margin-bottom: unset;
+}
+.sidebar .card {
+	border: 1px solid #05BBB4;
+}
+
+.sidebar .card-header {
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #05BBB4;
+}
+.list-group {
+	list-style: none;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: justify;
+}
+.sidebar_list-item {
+	padding-left: 32px;
+	height: 40px;
+	border-bottom: 1px dashed #05BBB4;
+}
+.sidebar_list-item a {
+	color: #41A0D7;
+}
+.sidebar_list-item:last-child {
+	border-bottom: unset;
+}

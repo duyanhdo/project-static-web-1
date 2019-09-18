@@ -1,0 +1,23 @@
+.about__title {
+	font-size: 24px;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+}
+
+.about__title::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 50%;
+	background-color: #41A0D7;
+}
+
+.about__content {
+	font-size: 18px;
+	line-height: 22px;
+	text-align: justify;
+}
+.about__img {
+	margin-bottom: 40px;
+}

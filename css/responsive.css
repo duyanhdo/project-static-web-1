@@ -1,0 +1,90 @@
+@media (max-width: 1024px) {
+	header {
+		font-size: 16px;
+	}
+	/*Navbar*/
+		.nav-item:first-child {
+			padding-left: unset;
+		}
+	/*Search*/
+		.search_input {
+			width: 100px;
+		}
+	/*Side bar*/
+		.sidebar .card-header {
+			font-size: 14px;
+		}
+		.list-group {
+			font-size: 14px;
+		}
+		.sidebar_list-item {
+		padding-left: 10px;
+		}
+}
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		margin-left: 100px;
+	}
+	/*Footer*/
+	.time {
+		margin-left: unset;
+	}
+}
+@media (max-width: 568px) {
+	.footer__logo, .lists-wrap, .phone, .time {
+		flex: unset;
+	}
+	.lists-wrap {
+		margin-left: 180px;
+	}
+	.phone {
+		margin-right: 50px;
+		margin-top: 20px;
+	}
+	.time {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+
+}
+@media (max-width: 320px) {
+	/*Body*/
+	.main {
+		margin-top: 130px;
+	}
+	/*Header*/
+	.navbar-brand {
+		margin:unset;
+	}
+	.searchbar--smblock input{
+		width: 230px;
+	}
+	/*Footer*/
+	.footer {
+		display: block;
+	}
+	.footer__logo, .lists-wrap, .phone, .time {
+		text-align: center;
+		margin: unset;
+	}
+	.footer__logo img {
+		width: 290px;
+	}
+	.lists-wrap, .phone, .time {
+		margin-top: 20px;
+	}
+	/*Back to Top*/
+	.note {
+		height: 60px;
+	}
+	.back-to-top {
+		display: block;
+		font-size: 14px;
+	}
+	/*About.html*/
+	.about__img img {
+		width: 290px;
+	}
+	
+}
