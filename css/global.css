@@ -4,40 +4,94 @@
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+/*Breadcrumb*/
+	.breadcrumb {
+		background-color: #ffffff;
+		border-top: 1px solid #0AA5B5;
+		border-bottom: 1px solid #0AA5B5;
+	}
+/*Body*/
+	.main {
+		margin-top: 90px;
+		margin-bottom: 20px;
+	}
+/*Header*/
+	#header {
+		border-bottom: 1px solid #0AA5B5;
+	}
+/*Back to Top*/
+	.note {
+		position: sticky;
+		bottom: 10px;
+		background-color: #05356E;
+		height: 30px;
+	}
+	.back-to-top {
+		display: flex;
+		color: #ffffff;
+		line-height: 30px;
+	}
+	.back-to-top div {
+		margin-right: auto;
+	}
+	#return-to-top {
+		color: #ffffff;
+		cursor: pointer;
+		text-decoration: none;
+	    transition: all 0.3s ease;
+	}
+	#return-to-top:hover {
+	    color: #05BBB4;
+	}
+/*My Form*/
+	.myForm {
+		margin-top: 50px;
+		min-height: 447px;
+		background-image: url(../images/form02.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #ffffff;
+	}
+	.myForm__title {
+		font-size: 24px;
+		text-align: center;
+		padding-top: 22px;
+	}
+	.input-wrap, .button-wrap {
+		text-align: center;
+	}
+	.input-wrap input {
+		background-color: transparent;
+		border: 1px solid #ffffff;
+		border-radius: 10px;
+		height: 50px;
+		width: 507px;
+		color: #ffffff;
+		font-size: 18px;
+		outline: none;
+		padding-left: 10px;
+		margin-bottom: 38px;
+	}
+	.input-wrap input:hover {
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+	}
+	.input-wrap input:focus {
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+	}
+	.input-wrap input::placeholder {
+		color: #ffffff;
+	}
 
-.breadcrumb {
-	background-color: #ffffff;
-	border-top: 1px solid #0AA5B5;
-	border-bottom: 1px solid #0AA5B5;
-}
+	.button-wrap input {
+		border: 1px solid #ffffff;
+		border-radius: 5px;
+		text-align: center;
+		color: #ffffff;
+		height: 40px;
+		width: 120px;
+	}
 
-.main {
-	margin-top: 90px;
-	margin-bottom: 20px;
-}
-#header {
-	border-bottom: 1px solid #0AA5B5;
-}
-.note {
-	position: sticky;
-	bottom: 10px;
-	background-color: #05356E;
-	height: 30px;
-}
-.back-to-top {
-	display: flex;
-	color: #ffffff;
-	line-height: 30px;
-}
-.back-to-top div {
-	margin-right: auto;
-}
-#return-to-top {
-	color: #ffffff;
-	cursor: pointer;
-	text-decoration: none;
-    transition: all 0.3s ease;
-}
-#return-to-top:hover {
-    color: #05BBB4;
-}
+	.button-wrap input:hover {
+		color: #05BBB4;
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+	}

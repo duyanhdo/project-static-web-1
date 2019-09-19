@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
 	header {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	/*Navbar*/
 		.nav-item:first-child {
@@ -53,6 +53,10 @@
 	.main {
 		margin-top: 130px;
 	}
+	.main .container {
+		padding-left: 5px;
+		padding-right: 5px	;
+	}
 	/*Header*/
 	.navbar-brand {
 		margin:unset;
@@ -86,5 +90,8 @@
 	.about__img img {
 		width: 290px;
 	}
-	
+	/*Contact-Form*/
+	.input-wrap input {
+		width: 280px;
+	}
 }

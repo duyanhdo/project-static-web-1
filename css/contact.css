@@ -1,0 +1,11 @@
+.contact img {
+	width: 245px;
+}
+.img {
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.contact__title i {
+	color: #0AA5B5;
+}
