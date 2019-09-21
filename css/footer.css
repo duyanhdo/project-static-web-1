@@ -22,6 +22,9 @@ footer {
 	font-size: 14px;
 	flex: 1;
 }
+.list-unstyled li {
+	margin-bottom: 8px;
+}
 .list-unstyled a {
 	color: #ffffff;
 }

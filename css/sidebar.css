@@ -32,3 +32,7 @@
 .sidebar_list-item:last-child {
 	border-bottom: unset;
 }
+.sidebar__item3 {
+	position: sticky;
+	top: 90px;
+}

@@ -1,8 +1,11 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body, html {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	
 }
 /*Breadcrumb*/
 	.breadcrumb {
@@ -20,27 +23,28 @@
 		border-bottom: 1px solid #0AA5B5;
 	}
 /*Back to Top*/
-	.note {
-		position: sticky;
-		bottom: 10px;
-		background-color: #05356E;
-		height: 30px;
+	#back-to-top {
+	    position: fixed;
+	    bottom: 40px;
+	    right: 40px;
+	    z-index: 9999;
+	    font-size: 50px;
+	    text-align: center;
+	    background: transparent;
+	    color: #0AA5B5;
+	    cursor: pointer;
+	    border: 0;
+	    border-radius: 2px;
+	    text-decoration: none;
+	    transition: opacity 0.2s ease-out;
+	    opacity: 0;
 	}
-	.back-to-top {
-		display: flex;
-		color: #ffffff;
-		line-height: 30px;
+	
+
+	#back-to-top.show {
+    	opacity: 1;
 	}
-	.back-to-top div {
-		margin-right: auto;
-	}
-	#return-to-top {
-		color: #ffffff;
-		cursor: pointer;
-		text-decoration: none;
-	    transition: all 0.3s ease;
-	}
-	#return-to-top:hover {
+	#back-to-top:hover {
 	    color: #05BBB4;
 	}
 /*My Form*/

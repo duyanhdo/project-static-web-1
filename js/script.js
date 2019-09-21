@@ -5,15 +5,26 @@ $(function() {
 	$('#sidebar').load('sidebar.html');
 	
 	// Back to Top
-	$(window).scroll(function() {
-    	if ($(this).scrollTop() >= 50) {        
-        	$('#return-to-top').fadeIn(200);    
+	if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+    backToTop = function () {
+    	var scrollTop = $(window).scrollTop();
+    	if (scrollTop > scrollTrigger) {
+    		$('#back-to-top').addClass('show');
     	} else {
-        		$('#return-to-top').fadeOut(200); 
-    		}
-	});
+    		$('#back-to-top').removeClass('show');
+    	}
+    };
+    backToTop();
+    $(window).on('scroll', function () {
+    	backToTop();
+    });
+    $('#back-to-top').on('click', function (event) {
+    	event.preventDefault();
+    	$('html,body').animate({
+    		scrollTop: 0
+    	}, 700);
+    });
+	}
 
-	$('#return-to-top').click(function() {      
-    	$('body,html').animate({scrollTop : 0}, 700);
-	});
 });
