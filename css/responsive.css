@@ -42,20 +42,20 @@
 	.navbar-brand {
 		margin-right: unset;
 	}
+	/*Footer*/
+	.footer {
+		display: block;
+	}
 	.footer__logo, .lists-wrap, .phone, .time {
-		flex: unset;
+		text-align: center;
+		margin: unset;
 	}
-	.lists-wrap {
-		margin-left: 180px;
+	.footer__logo img {
+		width: 290px;
 	}
-	.phone {
-		margin-right: 50px;
+	.lists-wrap, .phone, .time {
 		margin-top: 20px;
-	}
-	.time {
-		margin-left: 50px;
-		margin-top: 20px;
-	}
+	}	
 	.about__img img {
 		width: 290px;
 	}
@@ -84,27 +84,12 @@
 		margin:unset;
 	}
 	.searchbar--smblock input{
-		width: 230px;
-	}
-	/*Footer*/
-	.footer {
-		display: block;
-	}
-	.footer__logo, .lists-wrap, .phone, .time {
-		text-align: center;
-		margin: unset;
-	}
-	.footer__logo img {
-		width: 290px;
-	}
-	.lists-wrap, .phone, .time {
-		margin-top: 20px;
-	}
-	
-	/*About.html*/
-	
-	/*Contact-Form*/
-	.input-wrap input {
 		width: 280px;
+	}
+	
+}
+@media (max-width: 320px) {
+	.searchbar--smblock input{
+		width: 230px;
 	}
 }
