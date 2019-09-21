@@ -18,7 +18,7 @@
 			font-size: 14px;
 		}
 		.sidebar_list-item {
-		padding-left: 10px;
+			padding-left: 10px;
 		}
 	/*Header*/
 		/*Menu Dropdown*/
@@ -56,9 +56,7 @@
 	.lists-wrap, .phone, .time {
 		margin-top: 20px;
 	}	
-	.about__img img {
-		width: 290px;
-	}
+	
 	/*Header*/
 		/*Menu Dropdown*/
 		.nav-dropdown {
