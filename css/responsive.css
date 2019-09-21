@@ -72,6 +72,9 @@
 		display: table-row;
 		white-space: nowrap;
 		}
+		.menu-item-child {
+		padding: 5px 5px;
+		}
 }
 @media (max-width: 375px) {
 	.main {
