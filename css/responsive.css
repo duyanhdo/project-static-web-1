@@ -28,7 +28,18 @@
 		}
 		.menu-item {
 			width: 33%;
-		}	
+		}
+	/*Index.html*/
+		/*Sec-1*/
+			.img-name {
+				font-size: 16px;
+			}
+			#index__about .card-title {
+				transform: translateY(-39px);
+			}
+			.index__subtitle p {
+				width: 65%;
+			}
 }
 
 @media (max-width: 768px) {
@@ -36,7 +47,14 @@
 	.time {
 		margin-left: unset;
 	}
-	
+	/*Index.html*/
+		/*Sec-1*/
+		.index__title h1 {
+			font-size: 24px;
+		}
+		.index__subtitle p {
+			font-size: 14px;	
+		}
 }
 @media (max-width: 568px) {
 	.navbar-brand {
@@ -67,13 +85,21 @@
 			width: unset;
 		}
 		.menu-item {
-		border-right: 1px solid #f1f1f1;
-		width: 25%;
-		display: table-row;
-		white-space: nowrap;
+			border-right: 1px solid #f1f1f1;
+			width: 25%;
+			display: table-row;
+			white-space: nowrap;
 		}
 		.menu-item-child {
-		padding: 5px 5px;
+			padding: 5px 5px;
+		}
+	/*Index.html*/
+		/*Sec-1*/
+		.index__title h1 {
+			font-size: 20px;
+		}
+		.index__subtitle p {
+			width: 70%;	
 		}
 }
 @media (max-width: 375px) {
@@ -87,7 +113,11 @@
 	.searchbar--smblock input{
 		width: 280px;
 	}
-	
+	/*Index.html*/
+		/*Sec-1*/
+		.index__subtitle p {
+			width: 100%;
+		}
 }
 @media (max-width: 320px) {
 	.searchbar--smblock input{

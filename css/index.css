@@ -1,0 +1,54 @@
+/*Section 1 - About*/
+.index__title {
+	color: #0AA5B5;
+	text-transform: uppercase;
+}
+hr {
+	width: 25%;
+	border-top: 1px solid #05356E;
+}
+
+.index__subtitle p {
+	color: #2DCCB9;
+	width: 40%;
+}
+
+#index__about .card-img-wrap {
+	position: relative;
+}
+
+#index__about .card-title {
+	bottom: 0;
+	color: #ffffff;
+	transform: translateY(-44px);
+	padding: 10px 10px;
+	background-color: rgb(21,24,36,0.6);
+}
+#index__about .img-name {
+	margin-bottom: unset;
+}
+#index__about .card-text {
+	margin-top: -25px;
+	text-align: justify;
+}
+.btn-primary {
+	margin-top: 31px;
+	background-color: #46CFA8;
+	border: unset;
+}
+.btn-primary:hover {
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.15);
+}
+/*Section 2 - Services*/
+.section-2__card .card {
+	margin: 20px 0;
+}
+
+.section-2__card .card-title {
+	color: #3F83C4;
+	text-transform: uppercase;
+}
+
+.section-2__card .card-text {
+	text-align: justify;
+}
