@@ -37,8 +37,12 @@
 			#index__about .card-title {
 				transform: translateY(-39px);
 			}
+			.index__title h1 {
+			font-size: 24px;
+			}
 			.index__subtitle p {
 				width: 65%;
+				font-size: 14px;
 			}
 }
 
@@ -47,14 +51,11 @@
 	.time {
 		margin-left: unset;
 	}
-	/*Index.html*/
-		/*Sec-1*/
-		.index__title h1 {
-			font-size: 24px;
-		}
-		.index__subtitle p {
-			font-size: 14px;	
-		}
+	/*index.html*/
+		/*Section 4*/
+		
+	
+		
 }
 @media (max-width: 568px) {
 	.navbar-brand {

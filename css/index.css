@@ -20,9 +20,13 @@ hr {
 #index__about .card-title {
 	bottom: 0;
 	color: #ffffff;
-	transform: translateY(-44px);
+	transform: translateY(-43px);
 	padding: 10px 10px;
 	background-color: rgb(21,24,36,0.6);
+	cursor: pointer;
+}
+#index__about .card-title:hover {
+	color: #2DCCB9;
 }
 #index__about .img-name {
 	margin-bottom: unset;
@@ -32,7 +36,7 @@ hr {
 	text-align: justify;
 }
 .btn-primary {
-	margin-top: 31px;
+	margin-top: 25px;
 	background-color: #46CFA8;
 	border: unset;
 }
@@ -47,8 +51,82 @@ hr {
 .section-2__card .card-title {
 	color: #3F83C4;
 	text-transform: uppercase;
+	font-size: 18px;
 }
 
 .section-2__card .card-text {
 	text-align: justify;
+}
+/*Section 3 - Doctor*/
+.section-3 {
+	background: linear-gradient(127.31deg, #0AA5B5 34.46%, #2DCCB9 52.22%);
+}
+.section-3 .index__title {
+	color: #ffffff;
+}
+.section-3 h1 {
+	line-height: 1.5;
+	margin-bottom: unset;
+}
+.section-3 hr {
+	margin: 10px auto;
+	border-top-color: #ffffff;
+}
+.btn-floating {
+	color: #ffffff;
+}
+.carousel-indicators li {
+	background-color: #05356E;
+}
+.see-more {
+	color: #ffffff;
+}
+.see-more:hover {
+	color: #05356E;
+}
+.card-text p {
+	margin-bottom: 6px;
+}
+.clearfix .card {
+	border-bottom-right-radius: 50px;
+}
+.clearfix .card:hover {
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.5); 
+}
+/*Section 4 - Kid*/
+.block {
+	text-align: center;
+}
+.desc p {
+	text-align: justify;
+	text-indent: 30px;
+}
+/*Section 5 - Support*/
+.support__card {
+	position: relative;
+}
+.support__card img:hover {
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.5); 
+}
+.support__circle {
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	border: 1px solid #0AA5B5;
+	transform: translateY(-80px);
+	margin: auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.support__circle i {
+	font-size: 80px;
+	color: #0AA5B5;
+}
+.support-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #0096C3;
+	margin-top: -70px;
 }
