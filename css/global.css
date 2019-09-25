@@ -74,7 +74,7 @@ body, html {
 		font-size: 18px;
 		outline: none;
 		padding-left: 10px;
-		margin-bottom: 38px;
+		margin-bottom: 2.5rem;
 	}
 	.input-wrap input:hover {
 		box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
@@ -93,9 +93,11 @@ body, html {
 		color: #ffffff;
 		height: 40px;
 		width: 120px;
+		margin-bottom: 1rem;
 	}
 
 	.button-wrap input:hover {
-		color: #05BBB4;
+		background-color: #05BBB4;
+		color: #ffffff;
 		box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
 	}

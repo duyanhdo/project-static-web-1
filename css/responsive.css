@@ -44,6 +44,13 @@
 				width: 65%;
 				font-size: 14px;
 			}
+	/*Global.css*/
+	.myForm__title {
+		font-size: 20px;
+	}
+	.input-wrap input {
+		margin-bottom: 1rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -51,10 +58,18 @@
 	.time {
 		margin-left: unset;
 	}
-	/*index.html*/
-		/*Section 4*/
-		
-	
+	/*Global.css*/
+	.myForm__title {
+		font-size: 14px;
+		padding-top: 10px;
+		margin-bottom: 10px;
+	}
+	.input-wrap input {
+		height: 35px;
+	}
+	.index__info {
+		padding-top: 40px;
+	}
 		
 }
 @media (max-width: 568px) {
@@ -116,9 +131,14 @@
 	}
 	/*Index.html*/
 		/*Sec-1*/
+		.index__title h1 {
+			font-size: 18px;
+		}
 		.index__subtitle p {
 			width: 100%;
 		}
+	/*Global CSS*/
+
 }
 @media (max-width: 320px) {
 	.searchbar--smblock input{
