@@ -117,6 +117,43 @@
 		.index__subtitle p {
 			width: 70%;	
 		}
+	/*Services.html*/
+		.stepImg {
+			width: 300px; height: 460px;
+		}
+		.circleText {
+			margin-top: 60px;
+		}
+		.stepsCircle {
+			height: 140px; width: 140px;
+		}
+		.circle-1 {
+			left: 0px;
+		}
+		.circle-2 {
+			top: 0;
+			right: 0;
+		}
+		.circle-3 {
+			top: 160px;
+			left: 0;
+			right: unset;
+		}
+		.circle-4 {
+			bottom: unset;
+			top: 160px;
+			left: unset;
+			right: 0;
+		}
+		.circle-5 {
+			top: unset;
+			bottom: 0;
+		}
+		.circle-6 {
+			top: unset;
+			bottom: 0;
+			right: 0;
+		}	
 }
 @media (max-width: 375px) {
 	.main {
@@ -137,11 +174,19 @@
 		.index__subtitle p {
 			width: 100%;
 		}
-	/*Global CSS*/
-
+	.support__card {
+		padding-bottom: 20px;
+	}
+	.support__card:last-child {
+		padding-bottom: 0;
+	}
+	
 }
 @media (max-width: 320px) {
 	.searchbar--smblock input{
 		width: 230px;
+	}
+	.stepImg {
+		width: 290px;
 	}
 }
