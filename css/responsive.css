@@ -48,7 +48,8 @@
 	.myForm__title {
 		font-size: 20px;
 	}
-	.input-wrap input {
+	/*index.html*/
+	.section-6 .input-wrap input {
 		margin-bottom: 1rem;
 	}
 }
