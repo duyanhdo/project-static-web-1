@@ -1,4 +1,5 @@
-@media (max-width: 1024px) {
+
+@media (max-width: 1199px) {
 	header {
 		font-size: 14px;
 	}
@@ -119,6 +120,9 @@
 			width: 70%;	
 		}
 	/*Services.html*/
+		.contentImg--subtitle {
+			width: 100%;
+		}
 		.stepImg {
 			width: 300px; height: 460px;
 		}
@@ -128,33 +132,37 @@
 		.stepsCircle {
 			height: 140px; width: 140px;
 		}
-		.circle-1 {
+		.circle-0 {
 			left: 0px;
 		}
-		.circle-2 {
+		.circle-1 {
 			top: 0;
 			right: 0;
 		}
-		.circle-3 {
+		.circle-2 {
 			top: 160px;
 			left: 0;
 			right: unset;
 		}
-		.circle-4 {
+		.circle-3 {
 			bottom: unset;
 			top: 160px;
 			left: unset;
 			right: 0;
 		}
-		.circle-5 {
+		.circle-4 {
 			top: unset;
 			bottom: 0;
 		}
-		.circle-6 {
+		.circle-5 {
 			top: unset;
 			bottom: 0;
 			right: 0;
-		}	
+		}
+	/*Price.html*/
+	.price__search {
+		width: 100%;
+	}
 }
 @media (max-width: 375px) {
 	.main {

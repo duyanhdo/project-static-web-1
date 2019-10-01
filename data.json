@@ -1,0 +1,130 @@
+[
+	{
+		"nano5s": [
+			{	"banner": "banner-01.png",
+				"heading1": "Bọc răng sứ nano 5s là gì?",
+				"pgh1": "Công nghệ bọc răng sứ Nano 5S là một quy trình khép kín theo tiêu chuẩn Châu Âu, từ khâu nhập phôi sứ, chế tác răng tại Labo, đến thiết kế nụ cười và phục hình răng sứ cho khách hàng. Công nghệ tiên tiến này mở ra khả năng phục hình không giới hạn cho tất cả các trường hợp răng và mọi nền vật liệu của răng sứ, giúp chấm dứt nỗi lo về vấn đề bọc răng sứ có tốt không của rất nhiều khách hàng.",
+				"pgh2": "Nha khoa Magnolia sở hữu Labo chuyên biệt đáp ứng các tiêu chuẩn ISO, CE tuyệt đối. Phôi sứ được nhập trực tiếp từ các hãng sứ danh tiếng như Nacera, Ceramill, Emax,.. Chúng tôi cam kết về chất lượng, tất cả sản phẩm răng sứ đều được chế tác tinh xảo và phù hợp với từng khách hàng.",
+				"img1": "contentImg-01.png",
+				"subImg1": "Hình ảnh khách hàng trước và sau khi bọc răng sứ Nano 5s tại nha khoa Magnolia",
+				"pgh3": "Với công nghệ CAD/CAM hiện đại, cùng phần mềm Magic Smile giúp cho việc thiết kế nụ cười, dáng răng phù hợp, tính toán chính xác mô hình răng. Nha sĩ sẽ chỉ cần mài rất ít mô răng và phục hình răng chính xác tuyệt đối, từ đó tăng độ bền, thời gian sử dụng, cũng như loại bỏ hoàn toàn những nhược điểm mà công nghệ bọc răng sứ trước đây gặp phải.",
+				"heading2": "trường hợp nào cần bọc răng sứ?",
+				"case": [
+					{"caseImg": "caseImg-01-01.png","caseImgName": "răng gãy vỡ, sứt mẻ lớn"},
+					{"caseImg": "caseImg-01-02.png","caseImgName": "răng bị nhiễm màu nặng"},
+					{"caseImg": "caseImg-01-03.png","caseImgName": "răng thưa, hở kẽ"},
+					{"caseImg": "caseImg-01-04.png","caseImgName": "răng hô - móm nhẹ"},
+					{"caseImg": "caseImg-01-05.png","caseImgName": "bị mất răng"},
+					{"caseImg": "caseImg-01-06.png","caseImgName": "răng sâu, viêm tủy"}	
+				],
+				"heading3":"bảng giá và ưu đãi khi bọc răng sứ tại nha khoa magnolia", 
+				"price": [
+					{"service":"Gắn lại mão răng","unit":"1 răng","cost":"300.000"},
+					{"service":"Đúc cùi giả kim loại","unit":"1 răng","cost":"500.000"},
+					{"service":"Đúc cùi giả toàn sứ mức 3","unit":"1 răng","cost":"7.000.000"},
+					{"service":"Đúc cùi giả toàn sứ mức 4","unit":"1 răng","cost":"8.000.000"},
+					{"service":"Máng Mango điều trị khớp thái dương hàm","unit":"1 bộ","cost":"10.000.000"},
+					{"service":"Máng chống ê buốt","unit":"1 hàm","cost":"1.200.000"},
+					{"service":"Máng chống nghiến răng","unit":"1 hàm","cost":"1.200.000"},
+					{"service":"Máng cân bằng cân cơ","unit":"1 hàm","cost":"3.000.000"},
+					{"service":"Làm răng tạm bằng Luxatem","unit":"1 răng","cost":"Miễn phí"},
+					{"service":"Nâng khớp cắn mức 1","unit":"1 ca","cost":"20.000.000"},
+					{"service":"Nâng khớp cắn mức 2","unit":"1 ca","cost":"30.000.000"},
+					{"service":"Maket răng thẩm mỹ ( kế hoạch xem trước răng thẩm mỹ)","unit":"2 hàm","cost":"Miễn phí"},
+					{"service":"Hàm giữ khoảng cho trẻ em (mất răng khi chưa thay răng)","unit":"1 răng","cost":"1.500.000"}
+				],
+				"heading4":"6 bước chuẩn trong quy trình bọc răng sứ thẩm mỹ nano 5s",
+				"steps":[
+					{"step":"1. Khám và tư vấn"},
+					{"step":"2. Vệ sinh / gây mê"},
+					{"step":"3. Mài cùi răng"},
+					{"step":"4. Lấy dấu răng"},
+					{"step":"5. Thiết kế răng sứ"},
+					{"step":"6. Lắp và phục hình"}
+				],
+				"dentail": [
+					{"dTitle":"1/ Thăm khám và tư vấn","dContent":"Khám tổng quát khoang miệng, tình trạng răng, lợi và sức khỏe của bệnh nhân. Trong trường hợp có dấu hiệu sâu răng hoặc viêm tủy, bệnh nhân cần soi chụp để hỗ trợ điều trị trước khi làm răng sứ."},
+					{"dTitle":"2/ Sát khuẩn và sửa soạn răng hỏng","dContent":"Tiến hành vệ sinh răng miệng kỹ lưỡng để đảm bảo răng sứ được lắp vào một môi trường sạch khuẩn. Tất cả dụng cụ được sử dụng trong công đoạn này đều được khử khuẩn sạch sẽ."},
+					{"dTitle":"3/ Gây tê và mài cùi răng","dContent":"Sau khi gây tê, thân răng được mài nhỏ thành một cùi răng để làm trụ và lưu giữ được thân răng sứ bên trên. Trong suốt quá trình mài cùi, khách hàng sẽ được hỗ trợ bởi hệ thống gây tê hiện đại để làm giảm cảm giác ê buốt."},
+					{"dTitle":"4/ Lấy dấu răng","dContent":"Bác sỹ tiến hành lấy dấu răng bằng camera Omnicam về tỷ lệ và so màu của răng thật bên cạnh để truyền tín hiệu về cho Laboratory phân tích. Từ đó, chọn ra loại sứ phù hợp, cùng màu với răng thật của bệnh nhân."},
+					{"dTitle":"5/ Thiết kế răng sứ","dContent":"Răng sứ cao cấp được thiết kế trên phần mềm 5D chính xác đến từng vi điểm, cho kích thước, hình dáng và màu sắc răng chuẩn xác trên cả 5 mặt răng."},
+					{"dTitle":"6/ Lắp răng và hoàn tất phục hình","dContent":"Ngà răng còn lại sau khi mài sẽ được bôi một lớp kem Seal Protect để bảo vệ, giúp răng không bị đau nhức, ê buốt trong quá trình ăn nhai. Sau đó, mão răng sứ sẽ được gắn lên cùi răng, bác sỹ sẽ kiểm tra độ kênh và điều chỉnh cho vừa khít với nướu rồi cố định lại bằng gel y tế."}
+				],
+				"heading5":"6 lí do bạn nên bọc răng sứ thẩm mỹ nano 5s tại nha khoa magnolia",
+				"heading6":"Những câu hỏi thường gặp khi bọc răng sứ thẩm mỹ",
+				"questions": [
+					{"ask":"1/ Răng sứ có bền như răng thật được không?","asw":"Công nghệ Răng sứ Nano 5S đảm bảo phục hình răng tương thích nên có thể tồn tại rất bền chắc mà không phải sửa chữa hay phục hồi lại. Chất liệu sứ có độ chịu lực gấp 10 lần răng thật, cảm biến thức ăn tốt nên có thể ăn nhai như răng thật."},
+					{"ask":"2/ Sau bao lâu thì răng sứ bị xỉn màu?","asw":"Điều này phụ thuộc vào loại răng sứ cao cấp mà bạn sử dụng, thông thường đối với răng sứ kim loại, tuổi thọ màu răng duy trì được khoảng 7 – 15 năm thì bắt đầu có dấu hiệu xỉn màu hoặc đen viền lợi.<br>Tuy nhiên, đối với răng sứ cao cấp hay còn gọi là răng sứ không kim loại (răng toàn sứ) có đặc tính chống mòn và chống nhiễm màu cực tốt, có thể giúp răng duy trì màu được khoảng từ 20 – 25 năm trong điều kiện ăn uống bình thường. Nếu bạn có chế độ chăm sóc tốt, sau khi làm răng toàn sứ màu răng có thể duy trì lâu hơn nữa."},
+					{"ask":"3/ Thời gian bảo hành của răng sứ là bao lâu?","asw":"Tại nha khoa Magnolia, mọi dịch vụ nha khoa đều được áp dụng chế độ bảo hành, trong đó, không thể không kể đến bọc răng sứ thẩm mỹ. Thông thường, thời gian bảo hành răng sứ sẽ được tính theo từng loại răng với chi phí khác nhau. Cụ thể là răng sứ Titan có thời gian bảo hành là 1 – 2 năm và răng Cercon, EMax là 5 – 10 năm."},
+					{"ask":"4/ Bọc răng sứ có tốt không?","asw":"Đây được xem là thắc mắc của số đông khách hàng trước khi tiến hành bọc răng sứ. Theo đánh giá chung, bọc răng sứ không chỉ đem lại kết quả khả quan về mặt thẩm mỹ mà còn giúp khôi phục chức năng ăn nhai hoàn hảo như răng thật<br>Tuy nhiên, để đạt được hiệu quả này và giảm nỗi lo với vấn đề bọc răng sứ có tốt không, bạn cần có sự cân nhắc và lựa chọn địa chỉ bọc răng sứ uy tín ngay từ đầu."},
+					{"ask":"5/ NHƯ VẬY, NÊN BỌC RĂNG SỨ Ở ĐÂU ĐẢM BẢO NHẤT?","asw":"Với sứ mệnh đem đến cho người dân Việt Nam nụ cười tỏa sáng, Nha khoa Magnolia tự hào là một trong những trung tâm bọc răng sứ thẩm mỹ hàng đầu với các ưu thế vượt trội về chất lượng dịch vụ."}
+				]
+			}
+		]
+	},
+	{
+		"veneer": [
+			{	"banner": "banner-02.png",
+				"heading1": "Mặt dán sứ Veneer là gì?",
+				"pgh1": "Được ví như lớp mặt nạ hoàn hảo cho cho hàm răng, mặt dán sứ siêu mỏng Veneer Laminate là giải pháp phục hồi răng xấu hỏng, sứt mẻ bền chắc gấp nhiều lần răng thật mà không xâm lấn quá nhiều vào răng thật. Với sự phát triển của công nghệ hiện đại, mặt dán sứ ngày càng mỏng hơn và tự nhiên hơn.",
+				"pgh2": "Mặt dán sứ Veneer Laminate  được cấu tạo từ các lớp sứ mỏng được ép và nung ở nhiệt độ cao nhiều lần với độ dày mặt dán sứ khi hoàn thiện từ 0.1mm – 0.3 mm, được dán lên mặt ngoài và mặt nhai của răng giúp cải thiện tính thẩm mỹ, mang lại hàm răng trắng sáng và nụ cười hoàn hảo cho khách hàng.",
+				"img1": "contentImg-02.png",
+				"subImg1": "Mặt dán sứ Veneer – Tạm biệt răng xấu không cần mài răng",
+				"pgh3": "Miếng dán sứ sẽ khôi phục cả về tính thẩm mỹ và chức năng ăn nhai cho khuôn hàm mà không cần phải xấm lấn quá nhiều đến men răng thật, đảm bảo an toàn tối đa.",
+				"heading2": "trường hợp nào phù hợp để phục hình mặt dán sứ veneer?",
+				"case": [
+					{"caseImg": "caseImg-01-01.png","caseImgName": "răng gãy vỡ, sứt mẻ lớn"},
+					{"caseImg": "caseImg-01-02.png","caseImgName": "răng bị nhiễm màu nặng"},
+					{"caseImg": "caseImg-01-03.png","caseImgName": "răng thưa, hở kẽ"},
+					{"caseImg": "caseImg-01-04.png","caseImgName": "răng hô - móm nhẹ"},
+					{"caseImg": "caseImg-01-05.png","caseImgName": "bị mất răng"},
+					{"caseImg": "caseImg-01-06.png","caseImgName": "răng sâu, viêm tủy"}	
+				],
+				"heading3":"bảng giá và ưu đãi khi dán sứ veneer tại nha khoa magnolia", 
+				"price": [
+					{"service":"Mão toàn diện kim loại Cr- Co","unit":"1 răng","cost":"1.200.000"},
+					{"service":"Mão sứ Titan","unit":"1 răng","cost":"2.500.000"},
+					{"service":"Răng sứ Venus","unit":"1 răng","cost":"3.500.000"},
+					{"service":"Mão Sứ Roland","unit":"1 răng","cost":"5.000.000"},
+					{"service":"Mão toàn sứ Emax Zic","unit":"1 răng","cost":"6.000.000"},
+					{"service":"Mão sứ Cercon","unit":"1 răng","cost":"6.000.000"},
+					{"service":"Mão sứ Cercon HT – Emax Press","unit":"1 răng","cost":"7.000.000"},
+					{"service":"Veneer sứ Emax, Cercon HT","unit":"1 răng","cost":"8.000.000"},
+					{"service":"Veneer ultra thin – cao cấp","unit":"1 răng","cost":"12.000.000"},
+					{"service":"Răng Toàn Sứ Lava Plus -3M ESPE & Emax","unit":"1 răng","cost":"8.000.000"},
+					{"service":"Răng Toàn Sứ thẩm mỹ 4S","unit":"1 răng","cost":"12.000.000"},
+					{"service":"Răng Toàn Sứ Thẩm mỹ 5S","unit":"1 răng","cost":"15.000.000"},
+					{"service":"Răng Toàn Sứ Thẩm mỹ Kim cương","unit":"1 răng","cost":"18.000.000"},
+					{"service":"Răng toàn diện Vàng","unit":"1 răng","cost":"10.000.000"}
+				],
+				"heading4":"6 bước chuẩn trong quy trình dán sứ veneer thẩm mỹ nano 5s",
+				"steps":[
+					{"step":"1. Khám và tư vấn"},
+					{"step":"2. Vệ sinh / gây mê"},
+					{"step":"3. Mài cùi răng"},
+					{"step":"4. Lấy dấu răng"},
+					{"step":"5. Thiết kế răng sứ"},
+					{"step":"6. Lắp và phục hình"}
+				],
+				"dentail": [
+					{"dTitle":"1/ Thăm khám và tư vấn","dContent":"Khám tổng quát khoang miệng, tình trạng răng, lợi và sức khỏe của bệnh nhân. Trong trường hợp có dấu hiệu sâu răng hoặc viêm tủy, bệnh nhân cần soi chụp để hỗ trợ điều trị trước khi làm răng sứ."},
+					{"dTitle":"2/ Sát khuẩn và sửa soạn răng hỏng","dContent":"Tiến hành vệ sinh răng miệng kỹ lưỡng để đảm bảo răng sứ được lắp vào một môi trường sạch khuẩn. Tất cả dụng cụ được sử dụng trong công đoạn này đều được khử khuẩn sạch sẽ."},
+					{"dTitle":"3/ Gây tê và mài cùi răng","dContent":"Sau khi gây tê, thân răng được mài nhỏ thành một cùi răng để làm trụ và lưu giữ được thân răng sứ bên trên. Trong suốt quá trình mài cùi, khách hàng sẽ được hỗ trợ bởi hệ thống gây tê hiện đại để làm giảm cảm giác ê buốt."},
+					{"dTitle":"4/ Lấy dấu răng","dContent":"Bác sỹ tiến hành lấy dấu răng bằng camera Omnicam về tỷ lệ và so màu của răng thật bên cạnh để truyền tín hiệu về cho Laboratory phân tích. Từ đó, chọn ra loại sứ phù hợp, cùng màu với răng thật của bệnh nhân."},
+					{"dTitle":"5/ Thiết kế răng sứ","dContent":"Răng sứ cao cấp được thiết kế trên phần mềm 5D chính xác đến từng vi điểm, cho kích thước, hình dáng và màu sắc răng chuẩn xác trên cả 5 mặt răng."},
+					{"dTitle":"6/ Lắp răng và hoàn tất phục hình","dContent":"Ngà răng còn lại sau khi mài sẽ được bôi một lớp kem Seal Protect để bảo vệ, giúp răng không bị đau nhức, ê buốt trong quá trình ăn nhai. Sau đó, mão răng sứ sẽ được gắn lên cùi răng, bác sỹ sẽ kiểm tra độ kênh và điều chỉnh cho vừa khít với nướu rồi cố định lại bằng gel y tế."}
+				],
+				"heading5":"6 lí do bạn nên dán sứ veneer thẩm mỹ tại nha khoa magnolia",
+				"heading6":"Những câu hỏi thường gặp khi dán sứ veneer thẩm mỹ",
+				"questions": [
+					{"ask":"1/ Răng sứ có bền như răng thật được không?","asw":"Công nghệ dán sứ Veneer đảm bảo phục hình răng tương thích nên có thể tồn tại rất bền chắc mà không phải sửa chữa hay phục hồi lại. Chất liệu sứ có độ chịu lực gấp 10 lần răng thật, cảm biến thức ăn tốt nên có thể ăn nhai như răng thật."},
+					{"ask":"2/ Sau bao lâu thì răng sứ bị xỉn màu?","asw":"Điều này phụ thuộc vào loại răng sứ cao cấp mà bạn sử dụng, thông thường đối với răng sứ kim loại, tuổi thọ màu răng duy trì được khoảng 7 – 15 năm thì bắt đầu có dấu hiệu xỉn màu hoặc đen viền lợi.<br>Tuy nhiên, đối với răng sứ cao cấp hay còn gọi là răng sứ không kim loại (răng toàn sứ) có đặc tính chống mòn và chống nhiễm màu cực tốt, có thể giúp răng duy trì màu được khoảng từ 20 – 25 năm trong điều kiện ăn uống bình thường. Nếu bạn có chế độ chăm sóc tốt, sau khi làm răng toàn sứ màu răng có thể duy trì lâu hơn nữa."},
+					{"ask":"3/ Thời gian bảo hành của răng sứ là bao lâu?","asw":"Tại nha khoa Magnolia, mọi dịch vụ nha khoa đều được áp dụng chế độ bảo hành, trong đó, không thể không kể đến bọc răng sứ thẩm mỹ. Thông thường, thời gian bảo hành răng sứ sẽ được tính theo từng loại răng với chi phí khác nhau. Cụ thể là răng sứ Titan có thời gian bảo hành là 1 – 2 năm và răng Cercon, EMax là 5 – 10 năm."},
+					{"ask":"4/ Răng sứ Veneer có tốt không?","asw":"Dán sứ Veneer là dòng sứ siêu mỏng có kích thước khoảng 0,2 mm với phần cổ răng, 0,6 mm với bề mặt và 1,0 đỉnh cạnh cắn. Do đó ưu điểm vượt trội của sứ direct veneer so với các dòng sứ khác là bảo tồn răng thật tuyệt đối khi không phải mài răng."},
+					{"ask":"5/ NHƯ VẬY, NÊN DÁN SỨ VENEER THẨM MỸ Ở ĐÂU ĐẢM BẢO NHẤT?","asw":"Với sứ mệnh đem đến cho người dân Việt Nam nụ cười tỏa sáng, Nha khoa Magnolia tự hào là một trong những trung tâm dán sứ Veneer thẩm mỹ hàng đầu với các ưu thế vượt trội về chất lượng dịch vụ."}
+				]
+			}
+		]
+	}
+	
+]

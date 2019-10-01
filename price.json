@@ -1,0 +1,40 @@
+[
+	{
+		"free": [
+			{"service":"Chụp CT Conebeam","unit":"1 ca","cost":"Miễn phí"},
+			{"service":"Chụp X-Quang","unit":"1 ca","cost":"Miễn phí"},
+			{"service":"Khám và tư vấn","unit":"1 ca","cost":"Miễn phí"}
+		],
+		"nano5s": [
+			{"service":"Gắn lại mão răng","unit":"1 răng","cost":"300.000"},
+			{"service":"Đúc cùi giả kim loại","unit":"1 răng","cost":"500.000"},
+			{"service":"Đúc cùi giả toàn sứ mức 3","unit":"1 răng","cost":"7.000.000"},
+			{"service":"Đúc cùi giả toàn sứ mức 4","unit":"1 răng","cost":"8.000.000"},
+			{"service":"Máng Mango điều trị khớp thái dương hàm","unit":"1 bộ","cost":"10.000.000"},
+			{"service":"Máng chống ê buốt","unit":"1 hàm","cost":"1.200.000"},
+			{"service":"Máng chống nghiến răng","unit":"1 hàm","cost":"1.200.000"},
+			{"service":"Máng cân bằng cân cơ","unit":"1 hàm","cost":"3.000.000"},
+			{"service":"Làm răng tạm bằng Luxatem","unit":"1 răng","cost":"Miễn phí"},
+			{"service":"Nâng khớp cắn mức 1","unit":"1 ca","cost":"20.000.000"},
+			{"service":"Nâng khớp cắn mức 2","unit":"1 ca","cost":"30.000.000"},
+			{"service":"Maket răng thẩm mỹ ( kế hoạch xem trước răng thẩm mỹ)","unit":"2 hàm","cost":"Miễn phí"},
+			{"service":"Hàm giữ khoảng cho trẻ em (mất răng khi chưa thay răng)","unit":"1 răng","cost":"1.500.000"}
+		],
+		"veneer": [
+			{"service":"Mão toàn diện kim loại Cr- Co","unit":"1 răng","cost":"1.200.000"},
+			{"service":"Mão sứ Titan","unit":"1 răng","cost":"2.500.000"},
+			{"service":"Răng sứ Venus","unit":"1 răng","cost":"3.500.000"},
+			{"service":"Mão Sứ Roland","unit":"1 răng","cost":"5.000.000"},
+			{"service":"Mão toàn sứ Emax Zic","unit":"1 răng","cost":"6.000.000"},
+			{"service":"Mão sứ Cercon","unit":"1 răng","cost":"6.000.000"},
+			{"service":"Mão sứ Cercon HT – Emax Press","unit":"1 răng","cost":"7.000.000"},
+			{"service":"Veneer sứ Emax, Cercon HT","unit":"1 răng","cost":"8.000.000"},
+			{"service":"Veneer ultra thin – cao cấp","unit":"1 răng","cost":"12.000.000"},
+			{"service":"Răng Toàn Sứ Lava Plus -3M ESPE & Emax","unit":"1 răng","cost":"8.000.000"},
+			{"service":"Răng Toàn Sứ thẩm mỹ 4S","unit":"1 răng","cost":"12.000.000"},
+			{"service":"Răng Toàn Sứ Thẩm mỹ 5S","unit":"1 răng","cost":"15.000.000"},
+			{"service":"Răng Toàn Sứ Thẩm mỹ Kim cương","unit":"1 răng","cost":"18.000.000"},
+			{"service":"Răng toàn diện Vàng","unit":"1 răng","cost":"10.000.000"}
+		]
+	}
+]
