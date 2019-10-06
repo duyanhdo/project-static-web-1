@@ -55,13 +55,13 @@ header {
 	.close:active .nav-dropdown {
 		opacity: 0;
 	}
-	.menu-item > a {
-		padding: 10px 20px;
+	.menu-item > p {
+		padding: 0px 20px;
 		color: #05356E;
 		position: relative;
 		display: inline-block;
 	}
-	.menu-item > a::after {
+	.menu-item > p::after {
 		content: '';
 		display: block;
 		height: 2px;

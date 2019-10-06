@@ -1,32 +1,38 @@
 $(function() {
+		//Lấy ID từ URL
+		const id = document.URL.slice(-1);
+		console.log(id);	
 
-	$.getJSON('data.json', function(data) {
-		console.log(data);
-		let nano5s = data[0].nano5s;
-		// Đổ dữ liệu vào Banner
-		$('.srvs__banner').append(`<img src="images/data/${nano5s[0].banner}" class="img-fluid">`);
-
-		// Đổ dữ liệu vào Concept
-		$('#title1').append(`<div class="titleContent">${nano5s[0].heading1}</div>`);
-		$('.srvs__concept--content').append(`
-			<p class="contentParagraph">
-			${nano5s[0].pgh1}
-			</p>
-			<p class="contentParagraph">
-			${nano5s[0].pgh2}
-			</p>
-			<div class="contentImg">
-			<img class="img-fluid" src="images/data/${nano5s[0].img1}">
-			<p class="contentImg--subtitle">${nano5s[0].subImg1}</p>
-			</div>
-			<p class="contentParagraph">
-			${nano5s[0].pgh3}
-			</p>
-			`);
+		$.getJSON('data.json', function(data) {
+			$('.breadcrumb').html(`
+				<div class="container">
+				<span class="breadcrumb-item"><a href="index.html">Trang chủ</a></span>
+				<span class="breadcrumb-item" aria-current="page">Dịch Vụ</span>
+				<span class="breadcrumb-item" aria-current="page">Nha Khoa Thẩm Mỹ</span>
+				<span class="breadcrumb-item active" aria-current="page">${data[id].link}</span>
+				</div>`)
+			$('.srvs__banner').html(`<img src="images/data/${data[id].banner}" class="img-fluid">`)
+			// Đổ dữ liệu vào Concept
+			$('#title1').append(`<div class="titleContent">${data[id].heading1}</div>`);
+			$('.srvs__concept--content').append(`
+				<p class="contentParagraph">
+				${data[id].pgh1}
+				</p>
+				<p class="contentParagraph">
+				${data[id].pgh2}
+				</p>
+				<div class="contentImg">
+				<img class="img-fluid" src="images/data/${data[id].img1}">
+				<p class="contentImg--subtitle">${data[id].subImg1}</p>
+				</div>
+				<p class="contentParagraph">
+				${data[id].pgh3}
+				</p>
+				`);
 		// Đổ dữ liệu vào Case
-		$('#title2').append(`<div class="titleContent">${nano5s[0].heading2}</div>`);
+		$('#title2').append(`<div class="titleContent">${data[id].heading2}</div>`);
 
-		nano5s[0].case.forEach(function(element,index) {
+		data[id].case.forEach(function(element,index) {
 			$('.caseRow').append(`
 				<div class="col-12 col-md-6 col-lg-4 caseCol">
 				<div class="card caseCard border-0">
@@ -40,8 +46,8 @@ $(function() {
 		})
 
 		// Đổ dữ liệu vào Price
-		$('#title3').append(`<div class="titleContent">${nano5s[0].heading3}</div>`);
-		nano5s[0].price.forEach(function(element,index) {
+		$('#title3').append(`<div class="titleContent">${data[id].heading3}</div>`);
+		data[id].price.forEach(function(element,index) {
 			$('tbody').append(`
 				<tr>
 				<td>${element.service}</td>
@@ -52,9 +58,9 @@ $(function() {
 		})
 
 		// Đổ dữ liệu vào Steps
-		$('#title4').append(`<div class="titleContent">${nano5s[0].heading4}</div>`);
+		$('#title4').append(`<div class="titleContent">${data[id].heading4}</div>`);
 			// 6 bước (ảnh)
-			nano5s[0].steps.forEach(function(element,index) {
+			data[id].steps.forEach(function(element,index) {
 				$('.stepImg').append(`
 					<div class="stepsCircle circle-${index} text-center">
 					<p class="circleText">${element.step}</p>
@@ -62,7 +68,7 @@ $(function() {
 					`) 
 			})
 			// 6 bước (chi tiết)
-			nano5s[0].dentail.forEach(function(element,index) {
+			data[id].dentail.forEach(function(element,index) {
 				$('.stepDentail').append(`
 					<div>
 					<h5 class="dentail-Title">
@@ -75,11 +81,11 @@ $(function() {
 					`)
 			})
 		// Đổ dữ liệu vào Reason
-		$('#title5').append(`<div class="titleContent">${nano5s[0].heading5}</div>`);
+		$('#title5').append(`<div class="titleContent">${data[id].heading5}</div>`);
 		// Đổ dữ liệu vào Question 
-		$('#title6').append(`<div class="titleContent">${nano5s[0].heading6}</div>`);
+		$('#title6').append(`<div class="titleContent">${data[id].heading6}</div>`);
 
-		nano5s[0].questions.forEach(function(element,index) {
+		data[id].questions.forEach(function(element,index) {
 			$('.questionDentail').append(`
 				<div class="bigQuest">
 				<h5 class="question-Title">
@@ -92,5 +98,6 @@ $(function() {
 				`)
 		})
 	});
-	
-});
+	});
+
+

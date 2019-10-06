@@ -1,0 +1,22 @@
+.lib__img {
+	cursor: pointer;
+	text-align: center;
+}
+.modal-content {
+	top: 140px;
+}
+.lib__img img {
+	border: 1px solid #46CFA8;
+}
+.lib__img img:hover {
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.5);
+}
+.lib__form {
+	margin-top: 50px;
+	min-height: 447px;
+	background-image: url(../images/form02.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	border-radius: 10px;
+}
