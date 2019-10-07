@@ -128,36 +128,6 @@ th:last-child {
 	border-top-right-radius: 10px;
 }
 
-th.ascending::after {
-	content: '\f0dd';
-	color: #ffffff;
-  	font-family: 'Font Awesome 5 Free';
-  	font-weight: 900;
-  	float: right;
-  	padding-right: 10px;
-  	font-size: 12px;
-  	line-height: 22px;
-}
-
-th.descending::after {
-	content: '\f0de';
-  	font-family: 'Font Awesome 5 Free';
-  	font-weight: 900;
-  	float: right;
-  	padding-right: 10px;
-  	font-size: 12px;
-  	line-height: 22px;
-}
-
-th.normal::after {
-	content: '\f0dc';
-  	font-family: 'Font Awesome 5 Free';
-  	font-weight: 900;
-  	float: right;
-  	padding-right: 10px;
-  	font-size: 12px;
-  	line-height: 22px;
-}
 
 td {
 	text-align: center;
