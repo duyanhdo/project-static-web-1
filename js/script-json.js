@@ -1,8 +1,9 @@
 $(function() {
 		//Lấy ID từ URL
-		const id = document.URL.slice(-1);
-		console.log(id);	
-
+		const id = Number(document.URL.slice(-2));
+		
+		console.log(id);
+		
 		$.getJSON('data.json', function(data) {
 			$('.breadcrumb').html(`
 				<div class="container">
