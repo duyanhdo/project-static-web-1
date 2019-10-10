@@ -116,7 +116,10 @@
 }
 /*Section 06*/
 .index__form {
-	background-color: #05356E;
+	background-image: url(../images/1920x766.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
 }
 /*Section 07*/
 .section-7 {
