@@ -1,3 +1,7 @@
+/*Slide*/
+.carousel-item {
+	cursor: pointer;
+}
 /*Section 1 - About*/
 #index__about .card-img-wrap {
 	position: relative;
