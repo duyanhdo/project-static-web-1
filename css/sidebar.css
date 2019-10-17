@@ -29,6 +29,13 @@
 .sidebar_list-item a {
 	color: #41A0D7;
 }
+.sidebar_list-item:hover {
+	background-color: #05BBB4;
+	opacity: 0.6;
+}
+.sidebar_list-item:hover a {
+	color: #ffffff;
+}
 .sidebar_list-item:last-child {
 	border-bottom: unset;
 }

@@ -120,10 +120,12 @@
 }
 /*Section 06*/
 .index__form {
-	background-image: url(../images/1920x766.jpg);
+	background-image: url(../images/test.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #ffffff;
+	margin-left: unset;
+	margin-right: unset;
 }
 /*Section 07*/
 .section-7 {

@@ -183,12 +183,12 @@
 		.index__subtitle p {
 			width: 100%;
 		}
-	.support__card {
-		padding-bottom: 20px;
-	}
-	.support__card:last-child {
-		padding-bottom: 0;
-	}
+		.support__card {
+			padding-bottom: 20px;
+		}
+		.support__card:last-child {
+			padding-bottom: 0;
+		}
 	
 }
 @media (max-width: 320px) {
