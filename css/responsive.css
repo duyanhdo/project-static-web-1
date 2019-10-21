@@ -45,6 +45,10 @@
 				width: 65%;
 				font-size: 14px;
 			}
+		/*Sec - 3*/
+			.section-3 .card-name {
+				font-size: 18px;
+			}
 	/*Global.css*/
 	.myForm__title {
 		font-size: 20px;

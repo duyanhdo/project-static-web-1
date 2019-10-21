@@ -2,9 +2,10 @@ $(function() {
 	$.getJSON('price.json', function(data) {
 			console.log(data);
 			let free = data[0].free;
-			let nano5s = data[0].nano5s;
-			let veneer = data[0].veneer;
-			
+			let bocrang = data[0].bocrang;
+			let niengrang = data[0].niengrang;
+			let implant = data[0].implant;
+
 			free.forEach(function(element, index) {
 				$('#free').append(`
 				<tr>
@@ -15,8 +16,8 @@ $(function() {
 				`)
 			});
 			
-			nano5s.forEach(function(element, index) {
-				$('#nano5s').append(`
+			bocrang.forEach(function(element, index) {
+				$('#bocrang').append(`
 					<tr>
 					<td>${element.service}</td>
 					<td>${element.unit}</td>
@@ -25,8 +26,8 @@ $(function() {
 					`)
 			});
 			
-			veneer.forEach(function(element, index) {
-				$('#veneer').append(`
+			niengrang.forEach(function(element, index) {
+				$('#niengrang').append(`
 					<tr>
 					<td>${element.service}</td>
 					<td>${element.unit}</td>
@@ -34,6 +35,18 @@ $(function() {
 					</tr>
 					`)
 			});
+
+			implant.forEach(function(element, index) {
+				$('#implant').append(`
+					<tr>
+					<td>${element.service}</td>
+					<td>${element.unit}</td>
+					<td>${element.cost}</td>
+					</tr>
+					`)
+			});
+
+
 	});
 	let results = [];
 			let compare = {
