@@ -57,6 +57,10 @@
 	.section-6 .input-wrap input {
 		margin-bottom: 1rem;
 	}
+	/*info.html*/
+	.infor__content a {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 768px) {

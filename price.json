@@ -57,7 +57,7 @@
 			{"service":"Trụ Implant Strawmann SLA Thụy Sĩ","unit":"1 trụ","cost":"30.000.000"},
 			{"service":"Trụ Implant Strawmann SLA Active Thụy Sĩ","unit":"1 trụ","cost":"35.000.000"}
 		],
-		"implant-all": [
+		"implant_all": [
 			{"service":"DENTIUM KOREAN ALL-ON 4","unit":"Trọn gói - 1 hàm","cost":"140.000.000"},
 			{"service":"DENTIUM KOREAN ALL ON 6","unit":"Trọn gói - 1 hàm","cost":"160.000.000"},
 			{"service":"DENTIUM USA ALL ON 4","unit":"Trọn gói - 1 hàm","cost":"180.000.000"},
@@ -106,7 +106,46 @@
 			{"service":"Nhổ răng khôn mọc ngầm","unit":"Trọn gói","cost":"5.000.000"}
 		],
 		"dieutrituy": [
-			
+			{"service":"Chốt tủy kim loại","unit":"1 răng","cost":"500.000"},
+			{"service":"Chốt không kim loại","unit":"1 răng","cost":"2.000.000"},
+			{"service":"Hỗ trợ điều trị tủy răng 1 chân(răng 1,2,3)","unit":"1 răng","cost":"600.000"},
+			{"service":"Hỗ trợ điều trị tủy răng 2 chân (răng 4,5)","unit":"1 răng","cost":"800.000"},
+			{"service":"Hỗ trợ điều trị tủy răng nhiều chân (răng 6,7)","unit":"1 răng","cost":"1.500.000"},
+			{"service":"Hỗ trợ điều trị tủy lại","unit":"1 răng","cost":"1.500.000"},
+			{"service":"Phẫu thuật cắt chóp răng","unit":"1 răng","cost":"3.000.000"},
+			{"service":"Hỗ trợ điều trị chấn thương răng","unit":"1 răng","cost":"5.000.000"},
+			{"service":"Hỗ trợ điều trị tủy trám 3D","unit":"1 răng","cost":"3.000.000"},
+			{"service":"Che tủy bằng Biodentin( Vật liệu sinh học mới)","unit":"1 răng","cost":"3.000.000"},
+			{"service":"Cắt chóp trám tủy ngược bằng MTA","unit":"1 răng","cost":"3.000.000"}
+		],
+		"hanrang": [
+			{"service":"Đắp răng khểnh","unit":"1 răng","cost":"700.000"},
+			{"service":"Trám tạm Eugenate","unit":"1 răng","cost":"100.000"},
+			{"service":"Trám răng sữa","unit":"1 răng","cost":"200.000"},
+			{"service":"Trám GIC (Glass Inomer Cement) (Trám Fuji)","unit":"1 răng","cost":"250.000"},
+			{"service":"Trám cổ răng","unit":"1 răng","cost":"300.000"},
+			{"service":"Trám răng thẩm mỹ LASER TECH","unit":"1 răng","cost":"700.000"},
+			{"service":"Trám Inlay – Onlay sứ","unit":"Trọn gói","cost":"5.000.000"},
+			{"service":"Chụp bảo vệ răng sữa trẻ em","unit":"Trọn gói","cost":"1.000.000"}
+		],
+		"xuongham": [
+			{"service":"Phẫu thuật nâng xoang kín","unit":"1 răng","cost":"4.500.000"},
+			{"service":"Phẫu thuật nâng xoang hở","unit":"1 xoang","cost":"12.000.000"},
+			{"service":"Phẫu thuật tạo hình nướu quanh Implant","unit":"1 răng","cost":"2.000.000"},
+			{"service":"Phẫu thuật ghép mô liên kết","unit":"1 răng","cost":"5.000.000"},
+			{"service":"Phẫu thuật lấy trụ implant cũ","unit":"1 răng","cost":"3.500.000"},
+			{"service":"Abutment Custommize Sứ (Âu, Mỹ)","unit":"1 răng","cost":"5.000.000"},
+			{"service":"Abutment Custommize Sứ (Hàn quốc)","unit":"1 răng","cost":"4.000.000"},
+			{"service":"Abutment Custommize Titan (Âu, Mỹ)","unit":"1 răng","cost":"3.000.000"},
+			{"service":"Abutment Custommize Titan (Hàn Quốc)","unit":"1 răng","cost":"2.000.000"}
+		],
+		"kimcuong": [
+			{"service":"Kim Cương VS2 tự nhiên","unit":"1 răng","cost":"7.000.000"},
+			{"service":"Kim Cương VS2 nhân tạo","unit":"1 răng","cost":"5.000.000"},
+			{"service":"Kim Cương SI","unit":"1 răng","cost":"3.000.000"},
+			{"service":"Đá Nha Khoa","unit":"1 răng","cost":"1.000.000"},
+			{"service":"Công gắn đá, kim cương trên răng sứ","unit":"1 răng","cost":"1.000.000"},
+			{"service":"Công gắn đá, kim cương trên răng thật","unit":"1 răng","cost":"600.000"}
 		]
 	}
 ]
