@@ -4,7 +4,8 @@ $(function() {
 	$('#header').load('header.html');
 	$('#footer').load('footer.html');
 	$('#sidebar').load('sidebar.html');
-	
+	// Load WOW JS
+    new WOW().init();
 	// Back to Top
 	if ($('#back-to-top').length) {
     var scrollTrigger = 100, // px
@@ -48,7 +49,7 @@ $(function() {
     }
     text.animate({
         "max-height": newHeight
-    }, 500);
+    }, 1000);
     console.log(newHeight);
 });
    
