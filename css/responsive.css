@@ -7,10 +7,7 @@
 		.nav-item:first-child {
 			padding-left: unset;
 		}
-	/*Search*/
-		.search_input {
-			width: 100px;
-		}
+	
 	/*Side bar*/
 		.sidebar .card-header {
 			font-size: 14px;
@@ -86,6 +83,9 @@
 	.navbar-brand {
 		margin-right: unset;
 	}
+	.menu-item > p {
+		margin-bottom: unset;
+	}
 	/*Footer*/
 	.footer {
 		display: block;
@@ -117,7 +117,7 @@
 			white-space: nowrap;
 		}
 		.menu-item-child {
-			padding: 5px 5px;
+			padding: 5px 10px;
 		}
 	/*Index.html*/
 		/*Sec-1*/
@@ -173,15 +173,13 @@
 	}
 }
 @media (max-width: 375px) {
-	.main {
-		margin-top: 134px;
-	}
+	
 	/*Header*/
 	.navbar-brand {
 		margin:unset;
 	}
-	.searchbar--smblock input{
-		width: 280px;
+	.nav-item {
+		padding-right: unset;
 	}
 	/*Index.html*/
 		/*Sec-1*/
@@ -200,9 +198,7 @@
 	
 }
 @media (max-width: 320px) {
-	.searchbar--smblock input{
-		width: 230px;
-	}
+	
 	.stepImg {
 		width: 290px;
 	}

@@ -51,6 +51,6 @@ $(function() {
         "max-height": newHeight
     }, 1000);
     console.log(newHeight);
-});
+    });
    
 });
