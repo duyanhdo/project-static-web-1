@@ -63,6 +63,7 @@
             <div class="text-center about__img wow fadeInRight"><img class="img-fluid" src="images/about-item2.png"></div>
             <!-- Danh sách bác sĩ -->
             <img src="images/BS Luong Minh Hang.png" class="img-fluid mb-4">
+
             <div class="view text-center mb-3">  
               <div class="wrapper">
                 <p class="text">
@@ -112,6 +113,32 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- WOW JS -->
   <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+  <!-- Load See more -->
+  <script type="text/javascript">
+    let defaultHeight = 0;
+    let text = $(".text");
+    let textHeight = text[0].scrollHeight;
+    let button = $(".button");
+    button.text('Xem thêm');
+    text.css({"max-height": defaultHeight, "overflow": "hidden"});
+
+    button.on("click", function(){
+      let newHeight = 0;
+      if (text.hasClass("active")) {
+        newHeight = defaultHeight;
+        text.removeClass("active");
+        button.text('Xem thêm');
+      } else {
+        newHeight = textHeight;
+        text.addClass("active");
+        button.text('Thu gọn');
+      }
+      text.animate({
+        "max-height": newHeight
+      }, 1000);
+      console.log(newHeight);
+    });
+  </script>
 	<!-- My JS -->
 	<script type="text/javascript" src="js/script.js"></script>
   </body>
