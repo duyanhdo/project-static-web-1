@@ -131,9 +131,12 @@ th:last-child {
 	border-top-right-radius: 10px;
 }
 
-
 td {
 	text-align: center;
+}
+td:first-child {
+	text-align: justify;
+	padding: 10px 20px;
 }
 
 tr:nth-child(odd) {
