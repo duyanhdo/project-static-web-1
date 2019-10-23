@@ -62,23 +62,19 @@
             <p class="about__content wow fadeInRight">Đội ngũ bác sĩ luôn được chuyên biệt hóa về lĩnh vực chuyên sâu, mỗi bác sĩ sẽ đảm nhiệm một số kỹ thuật chuyên môn đặc thù dưới sự hướng dẫn và tham vấn của hội đồng cố vấn chuyên môn. Mỗi Thạc sĩ, Bác sĩ đều được tạo điều kiện bồi dưỡng nâng cao nghiệp vụ và cái Tâm của nghề y. Nha khoa Magnolia luôn ưu tiên tập trung phần lớn nguồn lực vào đào tạo nhân lực và trang thiết bị phòng khám hiện đại hơn.</p>
             <div class="text-center about__img wow fadeInRight"><img class="img-fluid" src="images/about-item2.png"></div>
             <!-- Danh sách bác sĩ -->
-            <img src="images/BS Luong Minh Hang.png" class="img-fluid mb-4">
-
-            <div class="view text-center mb-3">  
-              <div class="wrapper">
-                <p class="text">
-                  <img src="images/BS Nguyen Vu Hung.png" class="img-fluid mb-4" alt="BS Nguyễn Vũ Hưng">
-                  <img src="images/BS Nguyen Thuy Linh.png" class="img-fluid mb-4" alt="BS Nguyễn Thùy Linh">
-                  <img src="images/BS Bui Hoai Nam.png" class="img-fluid mb-4" alt="BS Bùi Hoài Nam">
-                  <img src="images/BS Nguyen Manh Phu.png" class="img-fluid mb-4" alt="BS Nguyễn Mạnh Phú">
-                  <img src="images/Frame 2.png" class="img-fluid mb-4" alt="BS Lê Thu Anh">
-                  <img src="images/BS Tran Thi Hong.png" class="img-fluid mb-4" alt="BS Trần Thị Hồng">
-                  <img src="images/BS Nguyen Thac Hai.png" class="img-fluid mb-4" alt="BS Nguyễn Thạc Hải">
-                </p>
-                <button class="button btn btn-info" style="width: 100px;"></button>
+            <div class="text-center mb-3">
+              <img src="images/BS Luong Minh Hang.png" class="img-fluid mb-4">
+              <div class="moretext">
+                <img src="images/BS Nguyen Vu Hung.png" class="img-fluid mb-4" alt="BS Nguyễn Vũ Hưng">
+                <img src="images/BS Nguyen Thuy Linh.png" class="img-fluid mb-4" alt="BS Nguyễn Thùy Linh">
+                <img src="images/BS Bui Hoai Nam.png" class="img-fluid mb-4" alt="BS Bùi Hoài Nam">
+                <img src="images/BS Nguyen Manh Phu.png" class="img-fluid mb-4" alt="BS Nguyễn Mạnh Phú">
+                <img src="images/Frame 2.png" class="img-fluid mb-4" alt="BS Lê Thu Anh">
+                <img src="images/BS Tran Thi Hong.png" class="img-fluid mb-4" alt="BS Trần Thị Hồng">
+                <img src="images/BS Nguyen Thac Hai.png" class="img-fluid mb-4" alt="BS Nguyễn Thạc Hải">
               </div>
+              <button class="moreless-button btn btn-info" style="width: 100px;">Xem thêm</button>
             </div>
-
             <h1 class="about__title wow fadeInLeft">3. Trang thiết bị hiện đại</h1>
             <p class="about__content wow fadeInLeft">Hiểu được tầm quan trọng của hệ thống các trang thiết bị đối với hiệu quả hỗ trợ điều trị, Nha khoa Magnolia nhập khẩu trực tiếp các thiết bị từ tập đoàn nha khoa uy tín trên thế giới. Việc vận hành sử dụng máy móc được các chuyên gia nước ngoài trực tiếp tham gia hướng dẫn và đào tạo, đảm bảo các quy trình dịch vụ diễn ra an toàn, đảm bảo, chính xác đạt được hiệu quả mang lại nhiều lợi ích cho khách hàng.</p>
             <div class="text-center about__img wow fadeInLeft"><img class="img-fluid" src="images/about-item3.png"></div>
@@ -115,29 +111,14 @@
   <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
   <!-- Load See more -->
   <script type="text/javascript">
-    let defaultHeight = 4263;
-    let text = $(".text");
-    let textHeight = text[0].scrollHeight;
-    let button = $(".button");
-    button.text('Xem thêm');
-    text.css({"max-height": defaultHeight, "overflow": "hidden"});
-
-    button.on("click", function(){
-      let newHeight = 0;
-      if (text.hasClass("active")) {
-        newHeight = defaultHeight;
-        text.removeClass("active");
-        button.text('Xem thêm');
+    $('.moreless-button').click(function() {
+      $('.moretext').slideToggle("slow");
+      if ($('.moreless-button').text() == "Xem thêm") {
+        $(this).text("Thu gọn")
       } else {
-        newHeight = textHeight;
-        text.addClass("active");
-        button.text('Thu gọn');
+        $(this).text("Xem thêm")
       }
-      text.animate({
-        "max-height": newHeight
-      }, 1000);
-      console.log(newHeight);
-    });
+    })
   </script>
 	<!-- My JS -->
 	<script type="text/javascript" src="js/script.js"></script>
