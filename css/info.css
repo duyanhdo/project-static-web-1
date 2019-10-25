@@ -15,6 +15,7 @@
 .infor__card {
 	border: unset;
 	border-bottom: 1px solid #c1c1c1;
+	border-radius: 0;
 }
 .info__link {
 	text-transform: uppercase;
