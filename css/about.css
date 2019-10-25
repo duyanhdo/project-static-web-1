@@ -12,8 +12,12 @@
 	width: 50%;
 	background-color: #41A0D7;
 }
-
+.about__name {
+	margin: 16px 0 8px;
+	font-weight: bold;
+}
 .about__content {
+	text-indent: 20px;
 	font-size: 18px;
 	line-height: 22px;
 	text-align: justify;

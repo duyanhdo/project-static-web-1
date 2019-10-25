@@ -29,5 +29,4 @@ $(function() {
 	}
     // Load WOW JS
     new WOW().init();
-   
 });
