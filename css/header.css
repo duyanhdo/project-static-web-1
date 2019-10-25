@@ -17,7 +17,7 @@ header {
 	color: #0AA5B5;
 	display: inline-block;
 }
-.nav-link::after {
+header .nav-link::after {
 	content: "";
 	display: block;
 	height: 2px;
@@ -25,7 +25,7 @@ header {
 	background-color: #41A0D7;
 	transition: width .6s;
 }
-.nav-link:hover::after {
+header .nav-link:hover::after {
 	content: "";
 	display: block;
 	height: 2px;
@@ -33,7 +33,6 @@ header {
 	background-color: #41A0D7;
 	transition: width .6s;
 }
-.nav-link
 /*Drop down*/
 	.nav-dropdown, .nav-column {
 		list-style-type: none;
