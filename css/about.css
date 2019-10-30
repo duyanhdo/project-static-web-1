@@ -1,3 +1,4 @@
+
 .about__title {
 	font-size: 24px;
 	font-weight: 500;
@@ -12,6 +13,9 @@
 	height: 2px;
 	width: 50%;
 	background-color: #41A0D7;
+}
+h4 {
+	font-size: 16px;
 }
 .about__name {
 	margin: 16px 0 8px;
