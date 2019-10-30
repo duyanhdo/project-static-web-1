@@ -1,8 +1,6 @@
 
 @media (max-width: 1199px) {
-	header {
-		font-size: 14px;
-	}
+	
 	/*Navbar*/
 		.nav-item:first-child {
 			padding-left: unset;

@@ -1,12 +1,17 @@
 header {
-	font-size: 18px;
+	font-size: 1rem;
 }
 
+.shadow {
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+	}
 /*Navbar*/
 .navbar {
 	padding: 8px 0;
 }
-
+.sticky {
+	width: 6rem;
+}
 .nav-item {
 	padding-right: 15px;
 }
@@ -16,6 +21,9 @@ header {
 .nav-link {
 	color: #0AA5B5;
 	display: inline-block;
+}
+header .nav-link:hover {
+	color: #006E4E;
 }
 header .nav-link::after {
 	content: "";
@@ -31,7 +39,7 @@ header .nav-link:hover::after {
 	height: 2px;
 	width: 100%;
 	background-color: #41A0D7;
-	transition: width .6s;
+	transition: width .25s;
 }
 /*Drop down*/
 	.nav-dropdown, .nav-column {
@@ -93,5 +101,4 @@ header .nav-link:hover::after {
 	.menu-item-child:hover {
 		background-color: #f1f1f1;
 	}
-
 

@@ -2,6 +2,10 @@
 .carousel-item {
 	cursor: pointer;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 30px;
+	height: 40px;
+}
 /*Section 1 - About*/
 #index__about .card-img-wrap {
 	position: relative;
@@ -25,7 +29,7 @@
 	color: #ffffff;
 }
 .btn-primary {
-	margin-top: 25px;
+	margin-top: 20px;
 	background-color: #46CFA8;
 	border: unset;
 }
@@ -33,9 +37,7 @@
 	box-shadow: 1px 1px 15px rgba(0,0,0,0.15);
 }
 /*Section 2 - Services*/
-.section-2 hr {
-	margin: 15px auto;
-}
+
 .section-2__card .card {
 	margin: 15px 0;
 }
@@ -43,7 +45,6 @@
 .section-2__card .card-title {
 	color: #3F83C4;
 	text-transform: uppercase;
-	font-size: 18px;
 }
 
 .section-2__card .card-text {
@@ -57,7 +58,6 @@
 	color: #ffffff;
 }
 .section-3 hr {
-	margin: 10px auto;
 	border-top-color: #ffffff;
 }
 .btn-floating {
@@ -131,9 +131,7 @@
 .section-7 {
 	padding-bottom: 3rem;
 }
-.section-7 .index__title h1 {
-	margin-bottom: unset;
-}
+
 .index__group {
 	border: 1px solid #3F83C4;
 	height: 90%;

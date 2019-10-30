@@ -4,7 +4,17 @@ $(function() {
 	$('#header').load('header.html');
 	$('#footer').load('footer.html');
 	$('#sidebar').load('sidebar.html');
-	
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200){  
+            $('.logoHeader img').addClass("sticky");
+            $('#header').addClass('shadow');
+        }
+        else{
+            $('.logoHeader img').removeClass("sticky");
+            $('#header').removeClass('shadow');
+        }
+    });
 	// Back to Top
 	if ($('#back-to-top').length) {
     var scrollTrigger = 100, // px

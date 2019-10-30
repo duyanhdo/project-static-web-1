@@ -20,3 +20,9 @@
 .info__link {
 	text-transform: uppercase;
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #006E4E;
+}
+.nav-pills .nav-link:not(.active):hover {
+	color: #324B4F;
+}
