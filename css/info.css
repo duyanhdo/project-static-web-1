@@ -21,7 +21,7 @@
 	text-transform: uppercase;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-	background-color: #006E4E;
+	background-color: #238acc;
 }
 .nav-pills .nav-link:not(.active):hover {
 	color: #324B4F;

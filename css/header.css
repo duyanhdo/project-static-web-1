@@ -23,7 +23,7 @@ header {
 	display: inline-block;
 }
 header .nav-link:hover {
-	color: #006E4E;
+	color: #238ACC;
 }
 header .nav-link::after {
 	content: "";
